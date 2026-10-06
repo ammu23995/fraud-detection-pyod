@@ -1,0 +1,6 @@
+# The Kaggle file is about 150 MB. Download it yourself instead of committing it.
+creditcard.csv
+__pycache__/
+venv/
+.venv/
+.DS_Store

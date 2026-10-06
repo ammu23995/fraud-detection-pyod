@@ -1,0 +1,9 @@
+# PyOD's AutoEncoder is built on PyTorch, but PyOD lists torch only as an
+# optional extra, so a plain "pip install pyod" does not install it.
+# It is listed explicitly here so that "pip install -r requirements.txt" works.
+pyod>=3.6,<4
+torch>=2.0
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+matplotlib>=3.7
